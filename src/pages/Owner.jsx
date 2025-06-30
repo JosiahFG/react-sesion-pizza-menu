@@ -1,2 +1,14 @@
-const Owner = () => <h1>Pagina del dueño</h1>;
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+
+const Owner = () => (
+  <>
+  <div className="header">
+    <Header />
+    <Footer />
+  </div>
+  
+  </>
+)
+
 export default Owner;
